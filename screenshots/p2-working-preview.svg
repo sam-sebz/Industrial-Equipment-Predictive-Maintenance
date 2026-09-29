@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<rect width="1200" height="750" fill="#f4f6f8"/>
+<rect width="1200" height="76" fill="#fff" stroke="#dae1e7"/>
+<text x="38" y="34" font-family="Arial" font-size="27" font-weight="700" fill="#18212b">Industrial Predictive Maintenance</text>
+<text x="38" y="58" font-family="Arial" font-size="14" fill="#65727e">Sensor-to-risk workflow with ML inference and persistence</text>
+<text x="950" y="42" font-family="Arial" font-size="13" font-weight="700" fill="#0d5c8f">LOCAL PROTOTYPE PREVIEW</text>
+
+<rect x="35" y="100" width="560" height="310" rx="12" fill="#fff" stroke="#dae1e7"/>
+<text x="58" y="133" font-family="Arial" font-size="19" font-weight="700" fill="#18212b">Sensor Input</text>
+<text x="58" y="172" font-family="Arial" font-size="14" fill="#65727e">Temperature (C)</text><rect x="58" y="181" width="235" height="30" rx="6" fill="#fafbfc" stroke="#dae1e7"/><text x="70" y="202" font-family="Arial" font-size="15" font-weight="700">90</text>
+<text x="320" y="172" font-family="Arial" font-size="14" fill="#65727e">Vibration (mm/s)</text><rect x="320" y="181" width="235" height="30" rx="6" fill="#fafbfc" stroke="#dae1e7"/><text x="332" y="202" font-family="Arial" font-size="15" font-weight="700">7</text>
+<text x="58" y="232" font-family="Arial" font-size="14" fill="#65727e">Pressure (psi)</text><rect x="58" y="241" width="235" height="30" rx="6" fill="#fafbfc" stroke="#dae1e7"/><text x="70" y="262" font-family="Arial" font-size="15" font-weight="700">95</text>
+<text x="320" y="232" font-family="Arial" font-size="14" fill="#65727e">RPM</text><rect x="320" y="241" width="235" height="30" rx="6" fill="#fafbfc" stroke="#dae1e7"/><text x="332" y="262" font-family="Arial" font-size="15" font-weight="700">1900</text>
+<text x="58" y="292" font-family="Arial" font-size="14" fill="#65727e">Operating hours</text><rect x="58" y="301" width="235" height="30" rx="6" fill="#fafbfc" stroke="#dae1e7"/><text x="70" y="322" font-family="Arial" font-size="15" font-weight="700">9000</text>
+<text x="320" y="292" font-family="Arial" font-size="14" fill="#65727e">Voltage (V)</text><rect x="320" y="301" width="235" height="30" rx="6" fill="#fafbfc" stroke="#dae1e7"/><text x="332" y="322" font-family="Arial" font-size="15" font-weight="700">430</text>
+<text x="58" y="352" font-family="Arial" font-size="14" fill="#65727e">Current (A)</text><rect x="58" y="361" width="235" height="30" rx="6" fill="#fafbfc" stroke="#dae1e7"/><text x="70" y="382" font-family="Arial" font-size="15" font-weight="700">30</text>
+<text x="320" y="352" font-family="Arial" font-size="14" fill="#65727e">Ambient temp (C)</text><rect x="320" y="361" width="235" height="30" rx="6" fill="#fafbfc" stroke="#dae1e7"/><text x="332" y="382" font-family="Arial" font-size="15" font-weight="700">38</text>
+
+<rect x="615" y="100" width="550" height="310" rx="12" fill="#fff" stroke="#dae1e7"/>
+<text x="638" y="133" font-family="Arial" font-size="19" font-weight="700" fill="#18212b">Prediction Result</text>
+<text x="638" y="176" font-family="Arial" font-size="14" fill="#65727e">Risk level</text>
+<text x="638" y="214" font-family="Arial" font-size="34" font-weight="700" fill="#af7319">High</text>
+<text x="638" y="254" font-family="Arial" font-size="14" fill="#65727e">Threshold</text><text x="840" y="254" font-family="Arial" font-size="17" font-weight="700">0.36</text>
+<text x="638" y="286" font-family="Arial" font-size="14" fill="#65727e">Model</text><text x="840" y="286" font-family="Arial" font-size="17" font-weight="700">Random Forest</text>
+<text x="638" y="318" font-family="Arial" font-size="14" fill="#65727e">ROC AUC</text><text x="840" y="318" font-family="Arial" font-size="17" font-weight="700">0.802</text>
+<text x="638" y="350" font-family="Arial" font-size="14" fill="#65727e">API</text><text x="840" y="350" font-family="Arial" font-size="16" font-weight="700" fill="#0d5c8f">POST /api/predict</text>
+<text x="638" y="382" font-family="Arial" font-size="14" fill="#65727e">Stored history</text><text x="840" y="382" font-family="Arial" font-size="16" font-weight="700" fill="#217e55">SQLite</text>
+
+<rect x="35" y="435" width="1130" height="260" rx="12" fill="#fff" stroke="#dae1e7"/>
+<text x="58" y="468" font-family="Arial" font-size="19" font-weight="700" fill="#18212b">Model Metrics</text>
+<text x="58" y="503" font-family="Arial" font-size="14" fill="#65727e">Records</text><text x="160" y="503" font-family="Arial" font-size="16" font-weight="700">15,000</text>
+<text x="300" y="503" font-family="Arial" font-size="14" fill="#65727e">Features</text><text x="385" y="503" font-family="Arial" font-size="16" font-weight="700">8</text>
+<text x="460" y="503" font-family="Arial" font-size="14" fill="#65727e">Models compared</text><text x="590" y="503" font-family="Arial" font-size="16" font-weight="700">3</text>
+<text x="58" y="540" font-family="Arial" font-size="14" fill="#65727e">Threshold precision</text><text x="220" y="540" font-family="Arial" font-size="15" font-weight="700">28.01%</text>
+<text x="380" y="540" font-family="Arial" font-size="14" fill="#65727e">Recall</text><text x="450" y="540" font-family="Arial" font-size="15" font-weight="700">53.79%</text>
+<text x="600" y="540" font-family="Arial" font-size="14" fill="#65727e">F1</text><text x="630" y="540" font-family="Arial" font-size="15" font-weight="700">36.84%</text>
+<line x1="58" y1="560" x2="1140" y2="560" stroke="#dae1e7"/>
+<text x="58" y="590" font-family="Arial" font-size="14" font-weight="700">Recent prediction</text>
+<text x="58" y="622" font-family="Arial" font-size="14">Compressor-01</text><text x="250" y="622" font-family="Arial" font-size="14">High</text><text x="350" y="622" font-family="Arial" font-size="14" font-weight="700" fill="#af7319">threshold 0.36</text>
+<text x="58" y="665" font-family="Arial" font-size="12" fill="#65727e">Generated from the locally running prototype API state. Sensor data is synthetic.</text>
+</svg>
