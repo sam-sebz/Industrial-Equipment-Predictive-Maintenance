@@ -2,6 +2,8 @@
 
 Full local engineering prototype for predicting equipment failure risk from operational sensor readings.
 
+![Working UI Preview](screenshots/p2-working-preview.svg)
+
 ## Included
 - Reproducible synthetic data generation
 - Model comparison and threshold tuning
